@@ -16,6 +16,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         title = "rergerg"
         view.backgroundColor = .red
+        
+        subView.backgroundColor = .gray
     }
 
 
