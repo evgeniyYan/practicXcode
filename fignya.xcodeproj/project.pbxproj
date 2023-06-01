@@ -13,6 +13,7 @@
 		8488EBC02A28C77B00AA0A73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8488EBBE2A28C77B00AA0A73 /* Main.storyboard */; };
 		8488EBC22A28C77C00AA0A73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8488EBC12A28C77C00AA0A73 /* Assets.xcassets */; };
 		8488EBC52A28C77C00AA0A73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8488EBC32A28C77C00AA0A73 /* LaunchScreen.storyboard */; };
+		84CF10842B875B7200911BE3 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CF10832B875B7200911BE3 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		8488EBC12A28C77C00AA0A73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8488EBC42A28C77C00AA0A73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8488EBC62A28C77C00AA0A73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84CF10832B875B7200911BE3 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				8488EBC12A28C77C00AA0A73 /* Assets.xcassets */,
 				8488EBC32A28C77C00AA0A73 /* LaunchScreen.storyboard */,
 				8488EBC62A28C77C00AA0A73 /* Info.plist */,
+				84CF10832B875B7200911BE3 /* Model.swift */,
 			);
 			path = fignya;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 				8488EBBD2A28C77B00AA0A73 /* ViewController.swift in Sources */,
 				8488EBB92A28C77B00AA0A73 /* AppDelegate.swift in Sources */,
 				8488EBBB2A28C77B00AA0A73 /* SceneDelegate.swift in Sources */,
+				84CF10842B875B7200911BE3 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,7 +290,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = fignya/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -313,7 +317,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = fignya/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
