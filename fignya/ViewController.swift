@@ -19,6 +19,7 @@ class ViewController: UIViewController {
     
     let button = UIButton()
     let label = UILabel()
+    let image = UIImage()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,6 +29,7 @@ class ViewController: UIViewController {
         view.addSubview(subView)
         view.addSubview(button)
         view.addSubview(label)
+        view.addSubview(image)
     }
 
 
