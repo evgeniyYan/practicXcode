@@ -10,12 +10,9 @@ import UIKit
 
 struct Model {
     var title: String
-    var name: String
-    var age: Int
 
-    init(title: String, name: String, age: Int) {
+
+    init(title: String) {
         self.title = title
-        self.name = name
-        self.age = age
     }
 }
