@@ -20,6 +20,7 @@ class ViewController: UIViewController {
     let button = UIButton()
     let label = UILabel()
     let image = UIImage()
+    let view = UIView()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,10 +31,12 @@ class ViewController: UIViewController {
         view.addSubview(button)
         view.addSubview(label)
         view.addSubview(image)
+        self.view.addSubview(view)
     }
 
 
     override func viewDidLayoutSubviews() {
+        view.frame = self.view.bounds
         button.frame = CGRect(x: 15, y: 100, width: 100, height: 30)
         subView.frame = CGRect(x: 15, y: self.view.frame.height / 3, width: view.frame.width - 30, height: self.view.frame.width / 2)
     }
