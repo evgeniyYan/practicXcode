@@ -11,10 +11,12 @@ import UIKit
 struct Model {
     var title: String
     var name: String
+    var age: Int
 
 
-    init(title: String, name: String) {
+    init(title: String, name: String, age: Int) {
         self.title = title
         self.name = name
+        self.age = age
     }
 }
